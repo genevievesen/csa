@@ -11,7 +11,6 @@ const AboutUs = () => (
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
-        <img src={images.skiis} alt="about_skiis" className="skiis__img"/>
         <p className="p__opensans">Insert about us paragrpah</p>
         <button type="button" className="custom__button">Learn More</button>
       </div>
@@ -20,7 +19,6 @@ const AboutUs = () => (
 
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
-        <img src={images.skiis} alt="about_skiis" className="skiis__img"/>
         <p className="p__opensans">Insert our history paragraph</p>
         <button type="button" className="custom__button">Learn More</button>
       </div>
