@@ -9,7 +9,6 @@ import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
-import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
@@ -23,6 +22,7 @@ import gericht from '../assets/gericht.png';
 import csa_logo from '../assets/csa_logo.png';
 import mtn_welcome from '../assets/mtn_welcome.png';
 import trav from'../assets/trav.png';
+import skiis from '../assets/skiis.svg';
 
 export default {
   bg,
@@ -36,7 +36,6 @@ export default {
   logo,
   menu,
   overlaybg,
-  spoon,
   welcome,
   findus,
   laurels,
@@ -49,5 +48,6 @@ export default {
   gericht,
   csa_logo,
   mtn_welcome,
-  trav
+  trav,
+  skiis
 };
