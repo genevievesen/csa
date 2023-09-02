@@ -97,8 +97,9 @@
   text-transform: capitalize;
 }
 
-.spoon__img {
+.skiis__img {
   width: 45px;
+  filter: invert(0.75);
 }
 
 @media screen and (min-width: 2000px) {
@@ -118,8 +119,9 @@
     line-height: 210px;
   }
 
-  .spoon__img {
+  .skiis__img {
     width: 80px;
+    filter: invert(0.75);
   }
 }
 
