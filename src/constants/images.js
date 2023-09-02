@@ -19,11 +19,11 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
-import csa_logo from '../assets/csa_logo.png';
 import mtn_welcome from '../assets/mtn_welcome.png';
 import trav from'../assets/trav.png';
 import skiis from '../assets/skiis.svg';
 import ski_ex from '../assets/ski_ex.svg'
+import csa_logo from '../assets/csa_logo.svg'
 
 export default {
   bg,
@@ -47,9 +47,9 @@ export default {
   sign,
   quote,
   gericht,
-  csa_logo,
   mtn_welcome,
   trav,
   skiis,
-  ski_ex
+  ski_ex,
+  csa_logo
 };
