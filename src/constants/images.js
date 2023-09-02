@@ -23,6 +23,7 @@ import csa_logo from '../assets/csa_logo.png';
 import mtn_welcome from '../assets/mtn_welcome.png';
 import trav from'../assets/trav.png';
 import skiis from '../assets/skiis.svg';
+import ski_ex from '../assets/ski_ex.svg'
 
 export default {
   bg,
@@ -49,5 +50,6 @@ export default {
   csa_logo,
   mtn_welcome,
   trav,
-  skiis
+  skiis,
+  ski_ex
 };
