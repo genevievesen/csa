@@ -14,14 +14,11 @@ const AboutUs = () => (
         <p className="p__opensans">Insert about us paragrpah</p>
         <button type="button" className="custom__button">Learn More</button>
       </div>
-      <div className= "app__aboutus-content_skis flex__center">
-      </div>
-
-      <div className="app__aboutus-content_history">
+      {/* <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <p className="p__opensans">Insert our history paragraph</p>
         <button type="button" className="custom__button">Learn More</button>
-      </div>
+      </div> */}
 
     </div>
   </div>
