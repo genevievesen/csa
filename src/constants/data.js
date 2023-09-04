@@ -3,74 +3,74 @@ import images from './images';
 const east_coast_mtns = [
   {
     title: 'Killington',
-    location: 'Killington, VT',
-    rating: '3.5 stars',
+    location: 'VT | USA',
+    rating: '3.5 ★',
   },
   {
     title: 'Loon',
-    location: 'Lincoln, NH',
-    rating: '1 star',
+    location: 'NH | USA',
+    rating: '1 ★',
   },
   {
     title: 'Stratton',
-    location: 'Stratton, VT',
-    rating: '2 stars',
+    location: 'VT | USA',
+    rating: '1 ★',
   },
   {
     title: 'Sunday River',
-    location: 'Newry, ME',
-    rating: '3.5 stars',
+    location: 'ME | USA',
+    rating: '3.5 ★',
   },
 ];
 
 const west_coast_mtns = [
   {
     title: 'Steamboat',
-    location: 'Steamboat Springs, CO',
-    rating: '3.5 stars',
+    location: 'CO | USA',
+    rating: '3.5 ★',
   },
   {
     title: 'Palisades Tahoe',
-    location: 'Olympic Valley, CA',
-    rating: '4 star',
+    location: 'CA | USA',
+    rating: '4 ★',
   },
   {
     title: 'Crystal Mountain',
-    location: 'Stratton, VT',
-    rating: '3.5 stars',
+    location: 'WA | USA',
+    rating: '3.5 ★',
   },
   {
     title: 'Deer Valley',
-    location: 'Park City, UT',
-    rating: '4 stars',
+    location: 'UT | USA',
+    rating: '4 ★',
   },
   {
     title: 'Solitude',
-    location: 'Solitude, UT',
-    rating: '3 stars',
+    location: 'UT | USA',
+    rating: '3 ★',
   },
   {
     title: 'Brighton',
-    location: 'Brighton, UT',
-    rating: '3.5 stars',
+    location: 'UT | USA',
+    rating: '3.5 ★',
   },
   {
     title: 'Snowbird',
-    location: 'Snowbird, UT',
-    rating: '5 stars',
+    location: 'UT | USA',
+    rating: '5 ★',
   },
   {
     title: 'Snowbasin',
-    location: 'Salt Lake City, UT',
-    rating: '5 stars',
+    location: 'UT | USA',
+    rating: '5 ★',
   },
 ];
 
 const eu_mtns = [
   {
     title: 'Chamonix Mont-Blanc',
-    location: 'Chamonix, FR',
-    rating: '3.5 stars',
+    location: 'FR',
+    rating: '3.5 ★',
   },
 
 ];
