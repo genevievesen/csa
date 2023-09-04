@@ -1,5 +1,5 @@
 .app__mountain {
-    width: 100%;
+    width: 80%;
     margin: 1rem 0;
 
     display: flex;
@@ -27,4 +27,11 @@
 
     background: var(--color-golden);
     margin: 0 1rem;
+}
+
+.app__mountain-rating {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
