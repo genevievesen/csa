@@ -19,7 +19,7 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <img src={images.csa_logo} alt="footer_logo" />
         <p className="p__opensans">&quot;Pray For Snow&quot;</p>
-        <img src={images.skiis} className="skiis__img" style={{ marginTop: 1 }} />
+        <img src={images.skiis} alt="footer_skiis" className="skiis__img" style={{ marginTop: 1 }} />
 
       </div>
 
