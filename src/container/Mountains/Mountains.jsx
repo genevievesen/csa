@@ -22,7 +22,7 @@ const Mountains = () => (
     </div>
 
     <div className="app__mountains-regions_eu flex__center">
-      <p className="app__mountains-regions_heading"> EU</p>
+      <p className="app__mountains-regions_heading"> Europe</p>
       <div className="app__mountains-regions_list">
         {data22.eu_mtns.map((eu_mtns, index) => (
             < Mountain keys={eu_mtns.title + index} title={eu_mtns.title} location={eu_mtns.location} rating={eu_mtns.rating}/>
@@ -55,7 +55,7 @@ const Mountains = () => (
 </div>
 
 <div className="app__mountains-regions_eu flex__center">
-  <p className="app__mountains-regions_heading"> EU</p>
+  <p className="app__mountains-regions_heading"> Europe</p>
   <div className="app__mountains-regions_list">
     {data23.eu_mtns.map((eu_mtns, index) => (
         < Mountain keys={eu_mtns.title + index} title={eu_mtns.title} location={eu_mtns.location} rating={eu_mtns.rating}/>
