@@ -1,9 +1,12 @@
-import images from './images';
-
 const east_coast_mtns = [
   {
     title: 'Killington',
     location: 'VT | USA',
+    rating: '3.5 ★',
+  },
+  {
+    title: 'Sunday River',
+    location: 'ME | USA',
     rating: '3.5 ★',
   },
   {
@@ -16,43 +19,13 @@ const east_coast_mtns = [
     location: 'VT | USA',
     rating: '1 ★',
   },
-  {
-    title: 'Sunday River',
-    location: 'ME | USA',
-    rating: '3.5 ★',
-  },
 ];
 
 const west_coast_mtns = [
   {
-    title: 'Steamboat',
-    location: 'CO | USA',
-    rating: '3.5 ★',
-  },
-  {
-    title: 'Palisades Tahoe',
-    location: 'CA | USA',
-    rating: '4 ★',
-  },
-  {
-    title: 'Crystal Mountain',
-    location: 'WA | USA',
-    rating: '3.5 ★',
-  },
-  {
-    title: 'Deer Valley',
+    title: 'Snowbasin',
     location: 'UT | USA',
-    rating: '4 ★',
-  },
-  {
-    title: 'Solitude',
-    location: 'UT | USA',
-    rating: '3 ★',
-  },
-  {
-    title: 'Brighton',
-    location: 'UT | USA',
-    rating: '3.5 ★',
+    rating: '5 ★',
   },
   {
     title: 'Snowbird',
@@ -60,9 +33,34 @@ const west_coast_mtns = [
     rating: '5 ★',
   },
   {
-    title: 'Snowbasin',
+    title: 'Deer Valley',
     location: 'UT | USA',
-    rating: '5 ★',
+    rating: '4 ★',
+  },
+  {
+    title: 'Palisades Tahoe',
+    location: 'CA | USA',
+    rating: '4 ★',
+  },
+  {
+    title: 'Brighton',
+    location: 'UT | USA',
+    rating: '3.5 ★',
+  },
+  {
+    title: 'Crystal Mountain',
+    location: 'WA | USA',
+    rating: '3.5 ★',
+  },
+  {
+    title: 'Steamboat',
+    location: 'CO | USA',
+    rating: '3.5 ★',
+  },
+  {
+    title: 'Solitude',
+    location: 'UT | USA',
+    rating: '3 ★',
   },
 ];
 

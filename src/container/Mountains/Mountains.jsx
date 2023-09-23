@@ -1,21 +1,21 @@
 import React from 'react';
 
 import {SubHeading, Mountain} from '../../components';
-import {data} from '../../constants';
+import {data22, data23} from '../../constants';
 import './Mountains.css';
 
 const Mountains = () => (
   <div className="app__mountains app__bg flex__center section__padding" id="mountains">
   <div className="app__mountains-title">
-    <SubHeading title="2022-2023"/>
-     <h1 className="headtext__cormorant"> Mountains Conquered</h1>
+    <SubHeading title="Mountains Conquered"/>
+     <h1 className="headtext__cormorant"> 2022-2023</h1>
   </div>
     <div className="app__mountains-regions">
 
     <div className="app__mountains-regions_west flex__center">
       <p className="app__mountains-regions_heading"> West Coast</p>
       <div className="app__mountains-regions_list">
-          {data.west_coast_mtns.map((west_coast_mtns, index) => (
+          {data22.west_coast_mtns.map((west_coast_mtns, index) => (
             < Mountain keys={west_coast_mtns.title + index} title={west_coast_mtns.title} location={west_coast_mtns.location} rating={west_coast_mtns.rating}/>
           ))}
       </div>
@@ -24,7 +24,7 @@ const Mountains = () => (
     <div className="app__mountains-regions_eu flex__center">
       <p className="app__mountains-regions_heading"> EU</p>
       <div className="app__mountains-regions_list">
-        {data.eu_mtns.map((eu_mtns, index) => (
+        {data22.eu_mtns.map((eu_mtns, index) => (
             < Mountain keys={eu_mtns.title + index} title={eu_mtns.title} location={eu_mtns.location} rating={eu_mtns.rating}/>
           ))}
       </div>
@@ -33,14 +33,48 @@ const Mountains = () => (
     <div className="app__mountains-regions_east flex__center">
       <p className="app__mountains-regions_heading"> East Coast</p>
       <div className="app__mountains-regions_list">
-        {data.east_coast_mtns.map((east_coast_mtns, index) => (
+        {data22.east_coast_mtns.map((east_coast_mtns, index) => (
             < Mountain keys={east_coast_mtns.title + index} title={east_coast_mtns.title} rating={east_coast_mtns.rating} location={east_coast_mtns.location} />
           ))}
       </div>
     </div>
 
     </div>
+    <div className="app__mountains-title">
+     <h1 className="headtext__cormorant"> 2023-2024</h1>
+    </div>
+    <div className="app__mountains-regions">
+
+<div className="app__mountains-regions_west flex__center">
+  <p className="app__mountains-regions_heading"> West Coast</p>
+  <div className="app__mountains-regions_list">
+      {data23.west_coast_mtns.map((west_coast_mtns, index) => (
+        < Mountain keys={west_coast_mtns.title + index} title={west_coast_mtns.title} location={west_coast_mtns.location} rating={west_coast_mtns.rating}/>
+      ))}
   </div>
+</div>
+
+<div className="app__mountains-regions_eu flex__center">
+  <p className="app__mountains-regions_heading"> EU</p>
+  <div className="app__mountains-regions_list">
+    {data23.eu_mtns.map((eu_mtns, index) => (
+        < Mountain keys={eu_mtns.title + index} title={eu_mtns.title} location={eu_mtns.location} rating={eu_mtns.rating}/>
+      ))}
+  </div>
+</div>
+
+<div className="app__mountains-regions_east flex__center">
+  <p className="app__mountains-regions_heading"> East Coast</p>
+  <div className="app__mountains-regions_list">
+    {data23.east_coast_mtns.map((east_coast_mtns, index) => (
+        < Mountain keys={east_coast_mtns.title + index} title={east_coast_mtns.title} rating={east_coast_mtns.rating} location={east_coast_mtns.location} />
+      ))}
+  </div>
+</div>
+
+</div>
+  </div>
+  
 );
 
 export default Mountains;
