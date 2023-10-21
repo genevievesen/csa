@@ -7,8 +7,8 @@ import './Mountains.css';
 const Mountains = () => (
   <div className="app__mountains app__bg flex__center section__padding" id="mountains">
   <div className="app__mountains-title">
-    <SubHeading title="Mountains Conquered"/>
-     <h1 className="headtext__cormorant"> 2022-2023</h1>
+    <h1 className="headtext__cormorant">Mountains Conquered</h1>
+    <SubHeading title="2022-2023"/>
   </div>
     <div className="app__mountains-regions">
 
@@ -41,7 +41,7 @@ const Mountains = () => (
 
     </div>
     <div className="app__mountains-title">
-     <h1 className="headtext__cormorant"> 2023-2024</h1>
+    <SubHeading title="2023-2024"/>
     </div>
     <div className="app__mountains-regions">
 

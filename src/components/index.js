@@ -1,13 +1,15 @@
 import SubHeading from './SubHeading/SubHeading';
-import Newsletter from './Footer/Newsletter';
 import FooterOverlay from './Footer/FooterOverlay';
 import Mountain from './Mountain/Mountain';
 import Navbar from './Navbar/Navbar';
+import Exec from './Exec/Exec';
+import Member from './Member/Member';
 
 export {
   SubHeading,
-  Newsletter,
   FooterOverlay,
   Mountain,
   Navbar,
+  Exec,
+  Member,
 };
