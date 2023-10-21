@@ -15,10 +15,25 @@
     width: 80%;
 }
 
+.time {
+    font-size: 32px;
+  }
+
+.app__timers{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
 
 @media screen and (max-width: 2000px) {
     .app__header-h1{
         font-size: 75px;
+    }
+
+    .app__timers{
+        size: 74px;
     }
 }
 
@@ -26,10 +41,17 @@
     .app__header-h1{
         font-size: 45px;
     }
+
+    .app__timers{
+        size: 45px;
+    }
 }
 
 @media screen and (max-width: 650px) {
     .app__header-h1{
         font-size: 10px;
+    }
+    .app__timers{
+        size: 10px;
     }
 }

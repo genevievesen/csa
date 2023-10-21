@@ -1,55 +1,40 @@
 import bg from '../assets/bg.png';
-import chef from '../assets/chef.png';
-import G from '../assets/G.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
-import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
-import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
-import laurels from '../assets/laurels.png';
-import award01 from '../assets/award01.png';
-import award02 from '../assets/award02.png';
-import award03 from '../assets/award03.png';
-import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
-import gericht from '../assets/gericht.png';
 import mtn_welcome from '../assets/mtn_welcome.png';
 import trav from'../assets/trav.png';
 import skiis from '../assets/skiis.svg';
 import ski_ex from '../assets/ski_ex.svg'
 import csa_logo from '../assets/csa_logo.svg'
+import founders from '../assets/csa_founding.jpg'
+import exec_daylen from '../assets/exec_daylen.png'
+import exec_dave from '../assets/exec_dave.png'
+import exec_lp from '../assets/exec_lp.png'
+import exec_trav from '../assets/exec_trav.png'
+import exec_genna from '../assets/exec_genna.png'
+
 
 export default {
   bg,
-  chef,
-  G,
-  gallery01,
-  gallery02,
-  gallery03,
-  gallery04,
-  knife,
   logo,
-  menu,
   overlaybg,
   welcome,
   findus,
-  laurels,
-  award01,
-  award02,
-  award03,
-  award05,
   sign,
   quote,
-  gericht,
   mtn_welcome,
   trav,
   skiis,
   ski_ex,
-  csa_logo
+  csa_logo,
+  founders,
+  exec_daylen,
+  exec_dave,
+  exec_lp,
+  exec_trav,
+  exec_genna
 };
