@@ -32,7 +32,7 @@ const getTimeHours = (time) => ((time % daySeconds) / hourSeconds) | 0;
 const getTimeDays = (time) => (time / daySeconds) | 0;
 
 const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
-const endTime = 1700629200; // use UNIX timestamp in seconds
+const endTime = 1702702800; // use UNIX timestamp in seconds for dec 16 2023
 
 const remainingTime = endTime - stratTime;
 const days = Math.ceil(remainingTime / daySeconds);
