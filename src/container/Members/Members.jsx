@@ -33,18 +33,4 @@ const Members = () => (
 
 );
 
-// const Members = () => (
-//    <div className="app__members app__bg flex__center section__padding" id="members">
-//       <div className="app__members-title">
-//       </div>
-//       <div className="app__members-title">
-
-//       </div>
-//       <div className="app__members-title">
-
-//       </div>
-//    </div>
-
-// );
-
 export default Members;
