@@ -57,14 +57,45 @@ const members = [
         name: 'Sophie Layton',
     },
     {
-        name: 'Max "The Hebrew Hammer" Pollinger',
+        name: 'Max Pollinger',
     },
     {
         name: 'Addison Williams',
     },
     {
         name: 'Liam Schilling',
+    },
+    {
+        name: 'David Stauffer',
+    },    
+    {
+        name: 'Lauren Planas',
+    },    
+    {
+        name: 'Travis Sheldon',
+    },    
+    {
+        name: 'Daylen Smith',
+    },    
+    {
+        name: 'Genna Senecal',
     },    
 ];
+
+// order an array of objects with name
+members.sort(function (a, b) {
+    const full_namea = a.name.split(' ');
+    const full_nameb = b.name.split(' ');
+    
+    if (full_namea[1] < full_nameb[1]) {
+      return -1;
+    }
+    if (full_namea[1] > full_nameb[1]) {
+      return 1;
+    }
+    return 0;
+  });
+
+members.sort();
 
 export default {exec_team, members};
