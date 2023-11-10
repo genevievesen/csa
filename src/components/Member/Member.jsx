@@ -3,7 +3,7 @@ import './Member.css';
 
 const Member = ({name}) => (
   <div className="app__member">
-    <p className="p__opensans" style={{color: '#AAA'}}>{name}</p>
+    <p className="app__member-list" style={{color: '#AAA'}}>{name}</p>
   </div>
 );
 
