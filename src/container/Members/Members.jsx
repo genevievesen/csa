@@ -11,6 +11,9 @@ const Members = () => (
          <div className="app__members-subtitle">
          <p className="app__members-subtitle_heading"> Founders</p>
             <img className="app__members-founders" src={images.founders} alt="alt_founders"></img>
+            <h2 className="app__members-subtitle_founders-name"> 
+               Nate Steele • Travis Sheldon • David Stauffer
+            </h2>
          </div>
          <div className="app__members-subtitle">
          <p className="app__members-subtitle_heading"> Executive Team</p>
