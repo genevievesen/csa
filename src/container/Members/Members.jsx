@@ -35,7 +35,7 @@ const Members = () => (
          <div className="app__members-subtitle">
          <p className="app__members-subtitle_heading">Recruitment Class 23/24</p>
          <h2 className="app__members-subtitle_recruits-name"> 
-               Dani Henson • Steph Alibrandi • Javi Arguello
+               Dani Hanson • Steph Alibrandi • Javi Arguello
             </h2>
          </div>                 
       </div>

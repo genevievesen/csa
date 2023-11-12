@@ -16,7 +16,7 @@
 }
 
 .time {
-    font-size: 32px;
+    font-size: 18px;
   }
 
 .app__timers{
@@ -29,21 +29,27 @@
 }
 
 @media screen and (max-width: 1150px) {
+
     .app__header-h1{
         font-size: 75px;
     }
 
     .app__timers{
         size: 15px;
-        flex-direction: column;
-    }
+    }    
 }
 
 @media screen and (max-width: 650px) {
     .app__header-h1{
-        font-size: 35px;
+        font-size: 30px;
     }
+
     .app__timers{
-        size: 10px;
-    }
+        size: 5px;
+    } 
+
+    .time {
+        font-size: 16px;
+      }
+
 }
