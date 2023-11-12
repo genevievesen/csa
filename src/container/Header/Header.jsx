@@ -50,6 +50,7 @@ const Header = () => (
         colors="#DCCA87"
         duration={daysDuration}
         initialRemainingTime={remainingTime}
+        size="80"
       >
         {({ elapsedTime, color }) => (
           <span style={{ color }}>
@@ -59,6 +60,7 @@ const Header = () => (
       </CountdownCircleTimer>
       <CountdownCircleTimer
         {...timerProps}
+        size="80"
         colors="#DCCA87"
         duration={daySeconds}
         initialRemainingTime={remainingTime % daySeconds}
@@ -75,6 +77,7 @@ const Header = () => (
       <CountdownCircleTimer
         {...timerProps}
         colors="#DCCA87"
+        size="80"
         duration={hourSeconds}
         initialRemainingTime={remainingTime % hourSeconds}
         onComplete={(totalElapsedTime) => ({
@@ -90,6 +93,7 @@ const Header = () => (
       <CountdownCircleTimer
         {...timerProps}
         colors="#DCCA87"
+        size="80"
         duration={minuteSeconds}
         initialRemainingTime={remainingTime % minuteSeconds}
         onComplete={(totalElapsedTime) => ({
