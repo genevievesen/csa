@@ -43,75 +43,11 @@ const Header = () => (
   <div className="app__header app__bg app__wrapper secton__padding" id="home">
     <div className="app__wrapper_info">
       <SubHeading title='"One Day Closer"'/>
-      <h1 className="app__header-h1">Blowing snow for next season...</h1>
-      <div className="app__timers">
-      <CountdownCircleTimer
-        {...timerProps}
-        colors="#DCCA87"
-        duration={daysDuration}
-        initialRemainingTime={remainingTime}
-        size="80"
-      >
-        {({ elapsedTime, color }) => (
-          <span style={{ color }}>
-            {renderTime("days", getTimeDays(daysDuration - elapsedTime))}
-          </span>
-        )}
-      </CountdownCircleTimer>
-      <CountdownCircleTimer
-        {...timerProps}
-        size="80"
-        colors="#DCCA87"
-        duration={daySeconds}
-        initialRemainingTime={remainingTime % daySeconds}
-        onComplete={(totalElapsedTime) => ({
-          shouldRepeat: remainingTime - totalElapsedTime > hourSeconds
-        })}
-      >
-        {({ elapsedTime, color }) => (
-          <span style={{ color }}>
-            {renderTime("hours", getTimeHours(daySeconds - elapsedTime))}
-          </span>
-        )}
-      </CountdownCircleTimer>
-      <CountdownCircleTimer
-        {...timerProps}
-        colors="#DCCA87"
-        size="80"
-        duration={hourSeconds}
-        initialRemainingTime={remainingTime % hourSeconds}
-        onComplete={(totalElapsedTime) => ({
-          shouldRepeat: remainingTime - totalElapsedTime > minuteSeconds
-        })}
-      >
-        {({ elapsedTime, color }) => (
-          <span style={{ color }}>
-            {renderTime("minutes", getTimeMinutes(hourSeconds - elapsedTime))}
-          </span>
-        )}
-      </CountdownCircleTimer>
-      <CountdownCircleTimer
-        {...timerProps}
-        colors="#DCCA87"
-        size="80"
-        duration={minuteSeconds}
-        initialRemainingTime={remainingTime % minuteSeconds}
-        onComplete={(totalElapsedTime) => ({
-          shouldRepeat: remainingTime - totalElapsedTime > 0
-        })}
-      >
-        {({ elapsedTime, color }) => (
-          <span style={{ color }}>
-            {renderTime("seconds", getTimeSeconds(elapsedTime))}
-          </span>
-        )}
-      </CountdownCircleTimer>      
-
-      </div>
-      
+      <h1 className="app__header-h1">Season Report:</h1>
+      <h2 className="app__header-h2">Low Vis, High Vibes</h2> 
     </div>
     <div className="app__wrapper_img">
-      <img src={images.mtn_welcome} alt="header"></img>
+      <img src="https://drive.google.com/thumbnail?id=1u8CjWoDuTPZBQWxoZX--d8Am5Oh4Pv4U&sz=w1000" alt="OOPS"/>
     </div>
   </div>
 );

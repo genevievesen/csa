@@ -11,6 +11,15 @@
     font-size: 75px;
 }
 
+.app__header-h2{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    line-height: 117px;
+    font-size: 75px;
+}
+
+
 .app__header-img{
     width: 80%;
 }
@@ -34,6 +43,10 @@
         font-size: 75px;
     }
 
+    .app__header-h2{
+        font-size: 75px;
+    }
+
     .app__timers{
         size: 15px;
     }    
@@ -41,6 +54,10 @@
 
 @media screen and (max-width: 650px) {
     .app__header-h1{
+        font-size: 30px;
+    }
+
+    .app__header-h2{
         font-size: 30px;
     }
 
