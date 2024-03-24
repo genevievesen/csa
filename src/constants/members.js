@@ -79,7 +79,25 @@ const members = [
     },    
     {
         name: 'Genna Senecal',
-    },    
+    },
+    {
+        name: 'Dani Hansen',
+    },   
+    {
+        name: 'Steph Alibrandi',
+    },   
+    {
+        name: 'Javi Arguello',
+    },
+    {
+        name: 'Kate Connelly',
+    },
+    {
+        name: 'Kelsey Taricani',
+    },   
+    {
+        name: 'Logan Taricani',
+    },
 ];
 
 // order an array of objects with name
