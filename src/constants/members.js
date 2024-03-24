@@ -42,7 +42,7 @@ const members = [
         name: 'Edmee Ernoult',
     },
     {
-        name: 'Rachel Philips',
+        name: 'Rachel Phillips',
     },
     {
         name: 'Brit Sharon',
