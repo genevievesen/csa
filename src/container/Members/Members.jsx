@@ -30,13 +30,6 @@ const Members = () => (
                 < Member keys={members.name + index} name={members.name}/>
                ))}
             </div>
-         </div> 
-
-         <div className="app__members-subtitle">
-         <p className="app__members-subtitle_heading">Recruitment Class 23/24</p>
-         <h2 className="app__members-subtitle_recruits-name"> 
-               Dani Hansen • Steph Alibrandi • Javi Arguello
-            </h2>
          </div>                 
       </div>
    </div>
