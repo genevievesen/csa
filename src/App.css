@@ -23,10 +23,12 @@ body{
 
 .app__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   min-height: 50vh;
+  margin-top: 0px; 
+
 }
 
 .app__wrapper_info {
@@ -34,18 +36,27 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: right;
   flex-direction: column;
+  margin-top: 0px; 
 }
 
 .app__wrapper_img {
   flex: 1;
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 
   margin-left: 2rem;
+}
+
+.app__wrapper-logo{
+  justify-content: right;
+}
+
+.app__wrapper-logo img{
+  width: 50%;
 }
 
 .app__wrapper_img-reverse {

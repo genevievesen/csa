@@ -1,5 +1,5 @@
 .app__header{
-    background-color: var(--color-black);
+    /* background-color: var(--color-black); */
 }
 
 .app__header-h1{
@@ -8,15 +8,14 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     line-height: 117px;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .app__header-h2{
     font-family: var(--font-base);
     color: var(--color-golden);
     letter-spacing: 0.04em;
-    line-height: 117px;
-    font-size: 75px;
+    font-size: 25px;
 }
 
 

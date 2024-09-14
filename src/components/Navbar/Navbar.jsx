@@ -6,9 +6,9 @@ import './Navbar.css';
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar app__bg">
       <div className="app__navbar-logo">
-        <img src={images.csa_logo} alt="app__logo" />
+        {/* <img src={images.csa_logo} alt="app__logo" /> */}
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>

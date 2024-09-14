@@ -9,6 +9,12 @@ const east_coast_mtns = [
     location: 'ME | USA',
     rating: '3.5 ★',
   },
+
+  {
+    title: 'Sugarbush',
+    location: 'VT | USA',
+    rating: '3 ★',
+  },
   {
     title: 'Loon',
     location: 'NH | USA',
@@ -43,6 +49,11 @@ const west_coast_mtns = [
     rating: '4 ★',
   },
   {
+    title: 'Mt. Bachelor',
+    location: 'OR | USA',
+    rating: '4 ★',
+  },
+  {
     title: 'Brighton',
     location: 'UT | USA',
     rating: '3.5 ★',
@@ -58,6 +69,16 @@ const west_coast_mtns = [
     rating: '3.5 ★',
   },
   {
+    title: 'Copper Mountain',
+    location: 'CO| USA',
+    rating: '3 ★',
+  },
+  {
+    title: 'Arapahoe Basin',
+    location: 'CO| USA',
+    rating: '3 ★',
+  },
+  {
     title: 'Solitude',
     location: 'UT | USA',
     rating: '3 ★',
@@ -71,6 +92,28 @@ const eu_mtns = [
     rating: '3.5 ★',
   },
 
+  {
+    title: 'Sölden',
+    location: 'AT',
+    rating: '3 ★',
+  },
+
+
 ];
 
-export default { east_coast_mtns, west_coast_mtns, eu_mtns };
+const sa_mtns = [
+  {
+    title: 'Valle Nevado',
+    location: 'CL',
+    rating: '3.5 ★',
+  },
+
+  {
+    title: 'La Parva',
+    location: 'CL',
+    rating: '3 ★',
+  },
+
+];
+
+export default { east_coast_mtns, west_coast_mtns, eu_mtns, sa_mtns};
