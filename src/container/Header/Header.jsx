@@ -42,12 +42,21 @@ const Header = () => (
   
   <div className="app__header app__bg app__wrapper secton__padding" id="home">
     <div className="app__wrapper_info">
+    <div className="app__wrapper-logo">
+        <img src={images.csa_logo} alt="app__logo" />
+      </div>
       <SubHeading title='"One Day Closer"'/>
-      <h1 className="app__header-h1">Season Report:</h1>
-      <h2 className="app__header-h2">Low Vis, High Vibes</h2> 
+      <h1 className="app__header-h1">Recap</h1>
+      <p3 className="app__header-h2">
+        The 2023-2024 season was one for the books! Our members skied over 500 days. On the east coast,
+        visibility woes caused many a-low-light-day but vibes were HIGH. Our west coast crew took on
+        Utah for a 2nd consecutive March and the Church of the Powder Day Saints did not disappoint.
+        The season ended high in the Chilean Andes of all places where the team celebrated co-founder Dave's
+        30th. Safe to say that the stoke is high for 2024-2025 season. 
+        </p3> 
     </div>
     <div className="app__wrapper_img">
-      <img src="https://drive.google.com/thumbnail?id=1u8CjWoDuTPZBQWxoZX--d8Am5Oh4Pv4U&sz=w1000" alt="OOPS"/>
+      <img src={images.stauff_chile}  alt="OOPS"/>
     </div>
   </div>
 );
